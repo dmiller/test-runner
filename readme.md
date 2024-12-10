@@ -36,7 +36,7 @@ probably wish to put it in the `test` alias:
 ```clojure
 ;; v0.5.3
 :aliases {:test {:extra-paths ["test"]
-                 :extra-deps {io.github.cognitect-labs/test-runner 
+                 :extra-deps {io.github.dmiller/test-runner 
                               {:git/tag "v0.5.3clr" :git/sha "ae91dd2"}}
                  :main-opts ["-m" "cognitect.test-runner"]
                  :exec-fn cognitect.test-runner.api/test}}
